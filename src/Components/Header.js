@@ -41,14 +41,14 @@ export default function Header({ darkModeOnClick }) {
             </a>
           </li>
           <li className="nav__item">
-            <a href="/#about" className="nav__link">
+            <NavLink exact to="#about" className="nav__link">
               About me
-            </a>
+            </NavLink>
           </li>
           <li className="nav__item">
-            <a href="/#work" className="nav__link">
+            <NavLink to="/#work" className="nav__link">
               My Work
-            </a>
+            </NavLink>
           </li>
           <li className="nav__item">
             <a href="#footer" className="nav__link">

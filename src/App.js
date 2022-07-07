@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { Route, BrowserRouter, Switch } from "react-router-dom";
+import { Route, BrowserRouter, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
+import Work from "./Components/Work";
 import HomePage from "./Pages/HomePage";
 import ProjectPage from "./Pages/Projects/ProjectPage";
-
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -15,12 +15,21 @@ function App() {
         <Header darkModeOnClick={() => setDarkMode((preValue) => !preValue)} />
 
         <Switch>
-          <Route exact path="/">
-            <HomePage />
+          <Route path="/projects/:id">
+            <ProjectPage />
           </Route>
 
-          <Route path="/projects">
+          <Route exact path="/projects">
             <ProjectPage />
+          </Route>
+
+          <Route exact path="/">
+            <HomePage />
+            <Work />
+          </Route>
+
+          <Route path='*'>
+            <Redirect to='/' />
           </Route>
         </Switch>
 

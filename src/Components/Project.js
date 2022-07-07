@@ -1,4 +1,6 @@
-export default function Project({ name, icons, live, about }) {
+import { Link } from "react-router-dom";
+
+export default function Project({ name, icons, live, about, linkTo }) {
   const image = () => {
     try {
       return require(`../Assets/Project Images/${name}-mobile.png`);
@@ -20,6 +22,9 @@ export default function Project({ name, icons, live, about }) {
         <p>Used Technologies:</p>
         <div className="icons-container">{icons}</div>
       </div>
+      <Link className="read-more-link" to={linkTo}>
+        Read More...
+      </Link>
     </div>
   );
 }

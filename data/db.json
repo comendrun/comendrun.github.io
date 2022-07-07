@@ -32,8 +32,8 @@
         }
       ],
       "images": {
-        "mobile": "../src/Assets/Project Images/other/quote-mobile.png",
-        "desktop": "../src/Assets/Project Images/other/New-Quiz-App-desktop.png"
+        "mobile": "",
+        "desktop": ""
       }
     },
     {
@@ -67,8 +67,8 @@
         }
       ],
       "images": {
-        "mobile": "../src/Assets/Project Images/frontend-mentor/time-tracking-app-mob.png",
-        "desktop": "../src/Assets/Project Images/frontend-mentor/time-tracking-app-desktop.png"
+        "mobile": "",
+        "desktop": ""
       }
     },
     {
@@ -102,8 +102,8 @@
         }
       ],
       "images": {
-        "mobile": "../src/Assets/Project Images/frontend-mentor/Tip-calculator-app-mobile.png",
-        "desktop": "../src/Assets/Project Images/frontend-mentor/Tip-calculator-app-desktop.png"
+        "mobile": "",
+        "desktop": ""
       }
     },
     {
@@ -133,8 +133,8 @@
         }
       ],
       "images": {
-        "mobile": "../src/Assets/Project Images/frontend-mentor/sunnyside-agency-landing-page-mobile.png",
-        "desktop": "../src/Assets/Project Images/frontend-mentor/sunnyside-agency-landing-page-desktop.png"
+        "mobile": "",
+        "desktop": ""
       }
     },
     {
@@ -167,8 +167,47 @@
         }
       ],
       "images": {
-        "mobile": "../src/Assets/Project Images/other/New-Quiz-App-mobile.png",
-        "desktop": "../src/Assets/Project Images/other/New-Quiz-App-desktop.png"
+        "mobile": "",
+        "desktop": ""
+      }
+    },
+    {
+      "id": "6",
+      "title": "Weather Image App",
+      "about": "a ReactJs app that uses two different APIs. one API to get weather info from OpenWeatherMap and the other one to get a related Image from Unsplash servers. I used the backend (NodeJS, ExpressJS) to hide my API keys from any visitor.",
+      "links": {
+        "live": "https://comendrun.com/Weather-Image-App/",
+        "github": "https://github.com/comendrun/Weather-Image-App"
+      },
+      "tech": [
+        {
+          "name": "HTML",
+          "display": "fa-brands fa-html5"
+        },
+        {
+          "name": "CSS",
+          "display": "fa-brands fa-css3-alt"
+        },
+        {
+          "name": "JavaScript",
+          "display": "fa-brands fa-js"
+        },
+        {
+          "name": "ReactJS",
+          "display": "fa-brands fa-react"
+        },
+        {
+          "name": "NodeJS",
+          "display": "fa-brands fa-node-js"
+        },
+        {
+          "name": "Responsive",
+          "display": "fa-solid fa-mobile-screen-button"
+        }
+      ],
+      "images": {
+        "mobile": "",
+        "desktop": ""
       }
     }
   ]
