@@ -4,47 +4,8 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import { ReactNode, useRef } from "react";
 import { IconType } from "react-icons";
 import { LinkPreview } from "../ui/link-preview";
-
-const Card = ({
-  children,
-  className,
-  index,
-  reverseColored = false,
-  link,
-}: {
-  children: ReactNode;
-  className: string;
-  index: number;
-  reverseColored?: boolean;
-  link: string;
-}) => {
-  const idx = reverseColored ? index + 1 : index;
-  return (
-    <div
-      className={`w-56 min-w-[10rem] h-[10rem] flex flex-col gap-4 justify-center items-center border-2 border-transparent text-black p-5 cursor-pointer transition-all duration-300 ${
-        idx % 2 === 0
-          ? "bg-white text-black hover:bg-black hover:text-white hover:scale-125 hover:border-white"
-          : "bg-black text-white hover:bg-white hover:text-black hover:scale-125 hover:border-black"
-      } ${className}`}
-    >
-      <LinkPreview url={link} className="font-extrabold">
-        {children}
-      </LinkPreview>
-    </div>
-  );
-};
-//   <a target="_blank" href={link} className="all">
-//   </a>
-
-type Card = {
-  id: number;
-  name: string;
-  link: string;
-  icon: IconType;
-  description: string;
-};
-
-type Cards = Card[];
+import { Card, Cards } from "./types";
+import TechStackItem from "./TechStackItem";
 
 export default function ParallaxCard() {
   const targetRef = useRef<HTMLDivElement | null>(null);
@@ -54,7 +15,7 @@ export default function ParallaxCard() {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-220%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-320%"]);
 
   const cards: Cards = personalInfo.technologies;
 
@@ -76,25 +37,10 @@ export default function ParallaxCard() {
               {firstArray.map((card, index) => {
                 const Icon = card.icon;
                 return (
-                  <Card link={card.link} key={index} className="" index={index}>
-                    <Icon className="text-8xl" />
-
-                    <div className="font-extrabold m-auto flex justify-center items-center">
-                      {card.name}
-                    </div>
-                  </Card>
-                );
-              })}
-            </div>
-            <div className="flex w-full h-full gap-4">
-              {secondArray.map((card, index) => {
-                const Icon = card.icon;
-                return (
-                  <Card
+                  <TechStackItem
                     link={card.link}
-                    reverseColored={true}
                     key={index}
-                    className=""
+                    className="min-w-[10rem] h-[10rem] w-56"
                     index={index}
                   >
                     <Icon className="text-8xl" />
@@ -102,7 +48,27 @@ export default function ParallaxCard() {
                     <div className="font-extrabold m-auto flex justify-center items-center">
                       {card.name}
                     </div>
-                  </Card>
+                  </TechStackItem>
+                );
+              })}
+            </div>
+            <div className="flex w-full h-full gap-4">
+              {secondArray.map((card, index) => {
+                const Icon = card.icon;
+                return (
+                  <TechStackItem
+                    link={card.link}
+                    reverseColored={true}
+                    key={index}
+                    className="min-w-[10rem] h-[10rem] w-56"
+                    index={index}
+                  >
+                    <Icon className="text-8xl" />
+
+                    <div className="font-extrabold m-auto flex justify-center items-center">
+                      {card.name}
+                    </div>
+                  </TechStackItem>
                 );
               })}
             </div>

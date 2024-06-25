@@ -74,7 +74,7 @@ const NavItem = ({ link, icon, name }: any) => {
         "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
       )}
     >
-      <span title={name} className="block sm:hidden text-white">
+      <span title={name} className="block sm:hidden text-white text-xl">
         <Icon />
       </span>
       <span className="hidden sm:block text-sm">{name}</span>
