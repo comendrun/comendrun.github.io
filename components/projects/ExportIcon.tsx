@@ -1,6 +1,6 @@
 import React from "react";
 
-const ExportICon = ({ color = "white", size = 20, ...props }) => {
+const ExportICon = ({ color = "white", size = 20, className = "", ...props }) => {
   return (
     <svg
       width={size}
@@ -9,6 +9,7 @@ const ExportICon = ({ color = "white", size = 20, ...props }) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
+      className={className}
     >
       <path
         d="M10.8334 9.9012L17.6667 3.06787"

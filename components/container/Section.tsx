@@ -13,12 +13,16 @@ export default function Section({
 }) {
   return (
     <section
-      className={`my-12 p-10 ${
+      className={`w-full h-full ${
         dark ? "bg-black text-white" : "bg-white text-black"
-      }  ${className}`}
-      id={id}
+      }  `}
     >
-      {children}
+      <section
+        className={`my-12 p-10 max-w-[1500px] mx-auto  ${className}`}
+        id={id}
+      >
+        {children}
+      </section>
     </section>
   );
 }

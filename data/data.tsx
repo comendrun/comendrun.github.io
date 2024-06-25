@@ -29,6 +29,7 @@ import {
 } from "react-icons/si";
 
 import projectPlaceholder from "@/public/assests/project-placeholder.svg";
+import tipCalculatorImg from "/assests/Tip-Calculator.png";
 
 export const personalInfo = {
   firstName: "Kamran",
@@ -167,60 +168,110 @@ export const personalInfo = {
       title: "Software Develooper",
       company: "RMS Intelligents GmbH",
       duration: "Jan 2023 - Present",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat ac leo in gravida. Praesent condimentum mauris rhoncus elit porta aliquet. Fusce quis purus vitae quam pellentesque efficitur viverra et mi. Curabitur egestas pulvinar turpis, non gravida risus pharetra at. Curabitur pulvinar quis nunc vel commodo. Nam nec eleifend enim, vel tristique mauris. Vestibulum auctor sodales magna, a consequat nibh blandit a. Ut fringilla ac nisi at maximus. Etiam iaculis augue nunc, vel venenatis nunc tincidunt non. Morbi porttitor feugiat ornare.",
       logo: "/assets/RMS-Intelligents.svg",
+      companyWebsite: "https://www.rms-intelligents.com/",
+      description: (
+        <>
+          <li className="">
+            As a Fullstack Software developer working in a small team, I had the
+            opportunity to be in direct contact with our stakeholders and users,
+            to be able to deliver the best possible product that would solve
+            their day to day issues.
+          </li>
+          <li>
+            I feel like my contribution was intrumental in delivering better
+            products and solving a lot of known and unknown issues that our
+            users had. I can confidently say that the user experience got
+            substantsially better after our new team was formed.
+          </li>
+          <li>
+            I got the chance to learn and showcase my abilities working with
+            several technologies, namely: NextJS, JavaScript, TypeScript, Java,
+            Spring Boot, PostgreSQL, AWS, Docker, Cypress E2E testing,
+            Git/GitHub, Github Actions and many more exciting new experiences.
+          </li>
+          <li>
+            Being able to learn and utilise new technolgies and topics everyday
+            is one of the best aspects of this profession which I love and am
+            very lucky to enjoy every day.
+          </li>
+        </>
+        // </ul>
+      ),
     },
     {
       title: "Software Develooper - Intern",
       company: "RMS Intelligents GmbH",
       duration: "Sep 2022 - Jan 2023",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat ac leo in gravida. Praesent condimentum mauris rhoncus elit porta aliquet. Fusce quis purus vitae quam pellentesque efficitur viverra et mi. Curabitur egestas pulvinar turpis, non gravida risus pharetra at. Curabitur pulvinar quis nunc vel commodo. Nam nec eleifend enim, vel tristique mauris. Vestibulum auctor sodales magna, a consequat nibh blandit a. Ut fringilla ac nisi at maximus. Etiam iaculis augue nunc, vel venenatis nunc tincidunt non. Morbi porttitor feugiat ornare.",
       logo: "/assets/RMS-Intelligents.svg",
+      companyWebsite: "https://www.rms-intelligents.com/",
+      description: (
+        <>
+          <li>
+            As self-taught Developer with no prior professional experience, and
+            who has just recently moved to Germany with little to no German
+            language knowledge, this was the best opportunity in the perfect
+            time to get first hand industry knowledge
+          </li>
+          <li>
+            Having the support of best senior developers to be able to develop
+            my skills and believe myself.
+          </li>
+          <li>
+            I already had extensive personal experience utilizing JavaScript,
+            React, NextJS, NodeJS, Git, GitHub, .... and in addition I had the
+            chance to learn new technologies like Docker, Java, Spring Boot, MVC
+            Architecture, AWS Serices, Agile methodolgy, E2E testing
+            (Cypress.io), and so many more exciting technologies.
+          </li>
+          <li>
+            I was able to demonstrate my abilities on real world issues and
+            tickets, by contributing directly to our projects.
+          </li>
+        </>
+      ),
     },
   ],
   aboutMe: {
     firstP:
       "I'm a Full-Stack Developer focusing on Java and JavaScript technologies like ReactJS, NextJS, NodeJS, Spring Boot, RestAPIs, SQL, Cypress E2E Testing and PostgreSQL databases. Passionate about continuous learning, I firmly believe in my abilities and strive to enhance my skill set.",
-    secondP:
-      "I'm a Full-Stack Developer focusing on Java and JavaScript technologies like ReactJS, NextJS, NodeJS, Spring Boot, RestAPIs, SQL, Cypress E2E Testing and PostgreSQL databases. Passionate about continuous learning, I firmly believe in my abilities and strive to enhance my skill set.",
-    thirdP:
-      "I'm a Full-Stack Developer focusing on Java and JavaScript technologies like ReactJS, NextJS, NodeJS, Spring Boot, RestAPIs, SQL, Cypress E2E Testing and PostgreSQL databases. Passionate about continuous learning, I firmly believe in my abilities and strive to enhance my skill set.",
+    secondP: "",
+    thirdP: "",
   },
   projects: [
     {
       id: 1,
       title: "Tip Calculator",
-      link: "",
+      link: "https://comendrun.com/Tip-calculator-app/",
       description:
         "A react app to calculate tip amount for provided bill amount with custom tip percentage and also each person's total share.",
-      repoLink: "",
-      image: projectPlaceholder,
+      repoLink: "https://github.com/comendrun/Tip-calculator-app",
+      image: "/assests/Tip-Calculator.png",
     },
-    {
-      id: 2,
-      title: "Tip Calculator",
-      link: "",
-      description:
-        "A react app to calculate tip amount for provided bill amount with custom tip percentage and also each person's total share.",
-      repoLink: "",
-      image: projectPlaceholder,
-    },
-    {
-      id: 3,
-      title: "Tip Calculator",
-      link: "",
-      description:
-        "A react app to calculate tip amount for provided bill amount with custom tip percentage and also each person's total share.",
-      repoLink: "",
-      image: projectPlaceholder,
-    },
+    // {
+    //   id: 2,
+    //   title: "Tip Calculator",
+    //   link: "",
+    //   description:
+    //     "A react app to calculate tip amount for provided bill amount with custom tip percentage and also each person's total share.",
+    //   repoLink: "",
+    //   image: projectPlaceholder,
+    // },
+    // {
+    //   id: 3,
+    //   title: "Tip Calculator",
+    //   link: "",
+    //   description:
+    //     "A react app to calculate tip amount for provided bill amount with custom tip percentage and also each person's total share.",
+    //   repoLink: "",
+    //   image: projectPlaceholder,
+    // },
   ],
   contact: {
     title: (
-      <h2 className="information-title text-2xl font-extrabold">
-        Lets <span>Talk</span> if you have anything in mind
+      <h2 className="information-title text-2xl font-extrabold lg:text-4xl">
+        Lets <span>Talk</span> if <br className="hidden lg:flex" /> you have
+        anything in mind
       </h2>
     ),
     description:

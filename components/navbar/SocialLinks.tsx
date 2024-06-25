@@ -1,9 +1,9 @@
 import { personalInfo } from "@/data/data";
 import React from "react";
 
-export default function SocialLinks() {
+export default function SocialLinks({ className }: { className?: string }) {
   return (
-    <div className="social flex gap-4">
+    <div className={`social flex gap-4 ${className}`}>
       {personalInfo.socialLinks.map(({ icon: Icon, name, link }, index) => {
         return (
           <a
