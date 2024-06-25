@@ -11,11 +11,11 @@ const nextConfig = {
   },
   output: "export",
   reactStrictMode: true,
-  images: {
-    domains: [
-      "api.microlink.io", // Microlink Image Preview
-    ],
-  },
+  // images: {
+  //   domains: [
+  //     "api.microlink.io", // Microlink Image Preview
+  //   ],
+  // },
 };
 
 export default nextConfig;
