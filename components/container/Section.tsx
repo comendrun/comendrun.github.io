@@ -13,7 +13,7 @@ export default function Section({
 }) {
   return (
     <section
-      className={`w-full h-full ${
+      className={`w-full h-full xl:py-36 ${
         dark ? "bg-black text-white" : "bg-white text-black"
       }  `}
     >
