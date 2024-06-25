@@ -4,7 +4,7 @@ import Section from "../container/Section";
 
 export default function Navbar() {
   return (
-    <Section id="navbar" className="py-0 xl:my-0">
+    <Section id="navbar" containerClassName="xl:py-0" className="py-0 ">
       <nav>
         {/* mobile nav */}
         <div className="flex justify-between items-center sticky w-full">
