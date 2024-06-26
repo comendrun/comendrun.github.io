@@ -33,7 +33,7 @@ export default function ParallaxCard() {
           className="text-white flex gap-2 justify-center items-center w-full h-full "
         >
           <div className="flex flex-col justify-center items-center w-full h-max gap-4">
-            <div className="flex w-full h-full gap-4">
+            <div className="flex w-full h-full gap-2">
               {firstArray.map((card, index) => {
                 const Icon = card.icon;
                 return (
@@ -52,7 +52,7 @@ export default function ParallaxCard() {
                 );
               })}
             </div>
-            <div className="flex w-full h-full gap-4">
+            <div className="flex w-full h-full gap-2">
               {secondArray.map((card, index) => {
                 const Icon = card.icon;
                 return (

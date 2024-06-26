@@ -12,14 +12,14 @@ export default function TechStack() {
         <ParallaxCard />
       </div>
 
-      <Section id="skills" className="hidden lg:grid grid-cols-7 w-full my-28">
+      <Section id="skills" className="hidden lg:grid grid-cols-7 gap-8 w-full my-28">
         {personalInfo.technologies.map((card: Card, index: number) => {
           const Icon = card.icon;
           return (
             <TechStackItem
               link={card.link} 
               key={index}
-              className=""
+              className="border-2 !border-black"
               index={index}
             >
               <Icon className="text-8xl" />
