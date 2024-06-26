@@ -17,7 +17,7 @@ const words = [
 
 export default function Hero() {
   return (
-    <Section id="hero" dark={false} containerClassName="xl:py-0" className="flex flex-col lg:flex-row-reverse gap-8 justify-center items-center lg:items-end ">
+    <Section id="hero" dark={false} containerClassName="xl:!py-0" className="flex flex-col lg:flex-row-reverse gap-8 justify-center items-center lg:items-end ">
       {/* <HeroVector /> */}
       <div className="flex flex-col gap-0 lg:flex-1">
         {/* image */}
