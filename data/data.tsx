@@ -39,7 +39,7 @@ export const personalInfo = {
   location: "Germany",
   address: "Ingolstadt, Germany",
   shortSummary:
-    "I'm a Full-Stack Developer focusing on Java and JavaScript technologies like ReactJS, NextJS, NodeJS, Spring Boot, RestAPIs, SQL, Cypress E2E Testing and PostgreSQL databases. Passionate about continuous learning, I firmly believe in my abilities and strive to enhance my skill set.",
+    "I'm a Full-Stack Developer focusing on Java and JavaScript technologies including ReactJS, NextJS, NodeJS, Spring Boot, RestAPIs, SQL, Cypress E2E Testing and PostgreSQL databases. Passionate about continuous learning, I firmly believe in my abilities and strive to enhance my skill set.",
   socialLinks: [
     {
       name: "Github",
