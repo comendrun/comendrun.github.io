@@ -28,12 +28,13 @@ export default function Hero() {
       {/* Hero content */}
       <div className="flex flex-col gap-8 lg:flex-1">
         {/* Hero main content */}
-        <h2 className="main-content text-3xl flex flex-col gap-2">
-          <div className="flex gap-2">
+        <h2 className="main-content text-xl lg:text-3xl flex flex-col gap-2">
+          <div className="flex gap-2 justify-start items-end">
             <p>Hi,</p>
-            <p>
+            <p className="flex gap-2 justify-start items-end  ">
               I&apos;m{" "}
-              <span className="font-bold">{personalInfo.firstName}</span>
+              <span className="font-bold text-2xl md:text-3xl lg:text-4xl">{personalInfo.firstName}</span>
+              <span className="font-bold text-2xl md:text-3xl lg:text-4xl">{personalInfo.lastName}</span>
             </p>
           </div>
           {/* <p className="flex gap-2 text-black"> */}
