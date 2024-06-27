@@ -8,7 +8,7 @@ export default function AboutMe() {
   return (
     <Section
       id="about-me"
-      className="px-0 w-[90%] mx-auto flex flex-col justify-center items-center lg:flex-row lg:my-44"
+      className="!px-0 w-[90%] mx-auto flex flex-col justify-center items-center lg:flex-row lg:my-44"
     >
       {/* vector */}
       <div className="flex w-full h-96 justify-center items-center -my-12 ">
@@ -17,7 +17,7 @@ export default function AboutMe() {
           alt="about-me"
           height={1000}
           width={1000}
-          className=" mx-auto w-full h-full max-w-[20rem] max-h-[20rem] lg:max-w-[40rem] lg:w-[40rem] lg:max-h-[40rem] lg:h-[40rem]"
+          className=" mx-auto w-full h-auto max-w-[20rem] max-h-[20rem] lg:max-w-[40rem] lg:w-[40rem] lg:max-h-[40rem] lg:h-[40rem]"
         />
       </div>
       <div className="flex flex-col w-full h-full">
