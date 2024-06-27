@@ -20,7 +20,7 @@ export default function Section({
       }  ${containerClassName} xl:py-36 `}
     >
       <section
-        className={`my-12 p-10 max-w-[1500px] mx-auto  ${className}`}
+        className={`my-12 px-10 pb-10 max-w-[1500px] mx-auto  ${className}`}
         id={id}
       >
         {children}
