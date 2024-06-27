@@ -65,16 +65,17 @@ export const personalInfo = {
   technologies: [
     {
       id: 1,
-      name: "JavaScript",
-      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      icon: IoLogoJavascript,
-      description: "",
-    },
-    {
-      id: 2,
       name: "TypeScript",
       link: "https://www.typescriptlang.org/",
       icon: BiLogoTypescript,
+      description: "",
+      iconColor: "text-[#3178c6]",
+    },
+    {
+      id: 2,
+      name: "JavaScript",
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      icon: IoLogoJavascript,
       description: "",
     },
     {
@@ -89,6 +90,7 @@ export const personalInfo = {
       name: "ReactJS",
       link: "https://react.dev/",
       icon: RiReactjsLine,
+      iconColor: " text-[#61DBFB] ",
       description: "",
     },
     {
@@ -103,6 +105,7 @@ export const personalInfo = {
       name: "Spring Boot",
       link: "https://spring.io/projects/spring-boot",
       icon: BiLogoSpringBoot,
+      iconColor:" text-[#6eb342] ",
       description: "",
     },
     {
@@ -110,6 +113,7 @@ export const personalInfo = {
       name: "GIT",
       link: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F",
       icon: FaGitAlt,
+      iconColor:"text-[#F1502F]",
       description: "",
     },
     {
@@ -165,7 +169,7 @@ export const personalInfo = {
   ],
   experiences: [
     {
-      title: "Software Develooper",
+      title: "Software Developer",
       company: "RMS Intelligents GmbH",
       duration: "Jan 2023 - Present",
       logo: "/assets/RMS-Intelligents.svg",
@@ -200,7 +204,7 @@ export const personalInfo = {
       ),
     },
     {
-      title: "Software Develooper - Intern",
+      title: "Software Developer - Intern",
       company: "RMS Intelligents GmbH",
       duration: "Sep 2022 - Jan 2023",
       logo: "/assets/RMS-Intelligents.svg",

@@ -5,6 +5,7 @@ export type Card = {
   name: string;
   link: string;
   icon: IconType;
+  iconColor?: string;
   description: string;
 };
 
