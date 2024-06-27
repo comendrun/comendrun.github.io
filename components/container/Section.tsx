@@ -17,7 +17,7 @@ export default function Section({
     <section
       className={`w-full h-full  ${
         dark ? "bg-black text-white" : "bg-white text-black"
-      }  ${containerClassName} xl:py-36 `}
+      }  ${containerClassName} xl:py-16 `}
     >
       <section
         className={`my-12 px-10 pb-10 max-w-[1500px] mx-auto  ${className}`}

@@ -12,7 +12,7 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects({ dark }: { dark: boolean }) {
   return (
-    <Section id="projects" dark={dark} className="w-full flex-col">
+    <Section id="projects" dark={dark} containerClassName="" className="w-full flex-col pt-20 xl:pt-0">
       <h2 className="flex gap-2 my-6 w-full justify-center items-centetr text-3xl">
         My <span className="font-extrabold">Projects</span>
       </h2>

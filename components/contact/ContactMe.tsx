@@ -22,7 +22,7 @@ export default function ContactMe() {
   }, [isCopied]);
 
   return (
-    <Section id="contact" dark={false} className="lg:flex lg:flex-row gap-24 justify-center lg:mx-auto">
+    <Section id="contact" dark={false} containerClassName="!pt-16 xl:!pt-32 " className="lg:flex lg:flex-row gap-24 justify-center lg:mx-auto">
       <div className="flex w-full h-full flex-col flex-1 lg:max-w-[30%]">
         {/* Inputs */}
         <ContactForm />
