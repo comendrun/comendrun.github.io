@@ -22,7 +22,7 @@ export default function TechStack() {
               className="border-2 !border-black"
               index={index}
             >
-              <Icon className={`text-8xl ${card.iconColor} `} />
+              <Icon style={{color: card.iconColor}} className={`text-8xl  `} />
 
               <div className="font-extrabold m-auto flex justify-center items-center">
                 {card.name}

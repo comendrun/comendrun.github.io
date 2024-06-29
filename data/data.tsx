@@ -69,13 +69,14 @@ export const personalInfo = {
       link: "https://www.typescriptlang.org/",
       icon: BiLogoTypescript,
       description: "",
-      iconColor: "text-[#3178c6]",
+      iconColor: "#3178c6",
     },
     {
       id: 2,
       name: "JavaScript",
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       icon: IoLogoJavascript,
+      iconColor: "#f4e131",
       description: "",
     },
     {
@@ -90,7 +91,7 @@ export const personalInfo = {
       name: "ReactJS",
       link: "https://react.dev/",
       icon: RiReactjsLine,
-      iconColor: " text-[#61DBFB] ",
+      iconColor: "#61DBFB",
       description: "",
     },
     {
@@ -105,7 +106,7 @@ export const personalInfo = {
       name: "Spring Boot",
       link: "https://spring.io/projects/spring-boot",
       icon: BiLogoSpringBoot,
-      iconColor:" text-[#6eb342] ",
+      iconColor: "#6eb342",
       description: "",
     },
     {
@@ -113,7 +114,7 @@ export const personalInfo = {
       name: "GIT",
       link: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F",
       icon: FaGitAlt,
-      iconColor:"text-[#F1502F]",
+      iconColor: "#F1502F",
       description: "",
     },
     {
@@ -135,6 +136,7 @@ export const personalInfo = {
       name: "PostgreSQL",
       link: "https://www.postgresql.org/",
       icon: BiLogoPostgresql,
+      iconColor: "#366692",
       description: "",
     },
     {
@@ -164,6 +166,7 @@ export const personalInfo = {
       name: "CSS",
       link: "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS",
       icon: IoLogoCss3,
+      iconColor: "#264de4",
       description: "",
     },
   ],

@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+## Next Steps:
+- export the Icon from TechStack to its own component
+- export the TechStack to its own component and use it in both mobile-desktop views
+- Adding Certificate and Education section
+- Adding a Downside arrow for the mobile view of the TechStack (Scroll)
+- Adding a move to top button for the mobile view of the TechStack (Scroll)
+- adding a different bg for hover effect of the desktop view for Navbar links

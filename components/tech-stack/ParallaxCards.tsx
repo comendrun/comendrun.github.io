@@ -43,7 +43,7 @@ export default function ParallaxCard() {
                     className="min-w-[10rem] h-[10rem] w-56"
                     index={index}
                   >
-                    <Icon className="text-8xl" />
+                    <Icon className="text-8xl" style={{color: card.iconColor}} />
 
                     <div className="font-extrabold m-auto flex justify-center items-center">
                       {card.name}
@@ -63,7 +63,7 @@ export default function ParallaxCard() {
                     className="min-w-[10rem] h-[10rem] w-56"
                     index={index}
                   >
-                    <Icon className="text-8xl" />
+                    <Icon className="text-8xl" style={{color: card.iconColor}} />
 
                     <div className="font-extrabold m-auto flex justify-center items-center">
                       {card.name}
