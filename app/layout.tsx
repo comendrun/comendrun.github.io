@@ -7,7 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 const inter = Sora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "comendrun Portfolio",
+  title: "COMENDRUN",
   description: "Welcome to my Minimalistic Portfolio",
 };
 
